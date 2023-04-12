@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Nerko+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;500;700&display=swap");
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Comfortaa", cursive;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,span{
+   font-family: "Nerko One", cursive;
+}
+
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #272B30;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+}
+  
+::-webkit-scrollbar-thumb:hover {
+    background: #3A497B;
+}
+
+
+.bg-top{
+    background-image: url("./images/wraper.png");
+    width: 100%;
+    height: 30vh;
+    background-size: 30%;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: end;
+    position: relative;
+    background-color: #272B30;
+}
+
+.bg-top .container{
+    position: absolute;
+    top: 85%;
+    left: 0;
+    right: 0;   
+
+}
+
+.navbar{
+    background-color: #3A497B;
+}
+
+nav .nav-item .nav-link{
+    color: white;
+    text-transform: uppercase;
+    font-size: small;
+    transition: all 0.5s;
+}
+
+nav .nav-item .nav-link:hover{
+    color: #0A8BBE;
+
+}
+
+nav .nav-item .nav-link.active{
+    color: #0A8BBE;
+}
+
+.main-content{
+    background-color: #272B30;
+    min-height: 70vh;
+}
+
+.free-btn{
+    color: white;
+    background-color: #4A6792;
+    border: none;
+    padding: 1%;
+    transition: all 0.80s;
+}
+
+.card{
+    background-color: transparent;
+    cursor: pointer;
+    transition: all 0.80s;
+}
+
+.card:hover{
+    scale: 1.1;
+}
+.card:hover .free-btn{
+    background-color: blue;
+    scale: 1.1;
+}
+.span-footer{
+    background-color: #363739;
+    padding: 3% 10%;
+    font-size: 0.75rem !important;
+}
+
+#details-page{
+    background-color: #272B30 ;
+    min-height: 100%;
+}
+
+#close-btn{
+    cursor: pointer;
+}
+
+#loading-icon{
+    background-color: #272B30 ;
+    min-height: 100%;
+}
